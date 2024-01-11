@@ -10,8 +10,9 @@ body {
     margin: 0;
     font-size: 2rem;
     display: flex;
+    flex: 1;
     min-height: 100vh;
-    align-items: baseline;
+    align-items: center;
 }
 
 .clock {
@@ -40,4 +41,8 @@ body {
     background: white;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
