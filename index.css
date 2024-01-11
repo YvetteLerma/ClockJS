@@ -1,0 +1,7 @@
+html {
+    background: url(media/clock.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
